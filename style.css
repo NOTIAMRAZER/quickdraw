@@ -1,0 +1,41 @@
+h1{
+    color: white;
+    font-size: 60px;
+}
+#show_sketch{
+    float: right;
+}
+canvas{
+    border: 5px solid white;
+    border-radius: 20px;
+    animation-name: example;
+    animation-duration: 4s;
+    margin-top: 150px;
+    animation-iteration-count: infinite;
+}
+@keyframes example {
+    from{box-shadow: 1px 1px 38px blue;}
+    to{box-shadow: 1px 1px 38px orange;}
+}
+p{
+    padding-top: 10px;
+    font-size: 25px;
+    color: white;
+}
+#head{
+    margin-top: 5px;
+    font-size: 55px;
+}
+.line{
+    height:6px;
+    width:100px;
+    background-color: white;
+    margin:8px auto;
+  }
+#contain{
+    text-align: left;
+}
+span{
+    color: white;
+    font-size: 25px;
+}
